@@ -1,0 +1,639 @@
+.titlesi {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 100px;
+}
+
+.qorsidagi {
+    font-size: 70px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.qizilidagi {
+    font-size: 70px;
+    font-weight: 700;
+    color: #D15555;
+    margin-top: -20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.vrapper {
+    text-align: center;
+}
+
+.qobiljiga {
+    margin-top: 100px;
+    margin-left: 60px;
+}
+
+.avarasm {
+    width: 300px;
+    border: 3px solid rgb(84, 84, 84);
+    border-radius: 150px;
+}
+
+.podps {
+    width: 400px;
+    border-radius: 20px;
+    margin-left: -350px;
+    margin-top: 50px;
+}
+
+.yozuvi h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    margin-top: 30px;
+}
+
+.yozuvi h4 {
+    font-size: 17px;
+    color: rgb(97, 97, 97);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+}
+
+.yozuvi p {
+    font-size: 20px;
+    width: 500px;
+    margin-top: 30px;
+    margin-left: 600px;
+    color: #333;
+    font-weight: 600;
+}
+
+.projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 70px;
+}
+
+.projects img {
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px;
+}
+
+.hei {
+    height: 350px;
+}
+
+.hei3 {
+    height: 350px;
+}
+
+
+@media (max-width:1246px) {
+    .yozuvi p {
+        margin-left: 370px;
+    }
+}
+
+@media (max-width:1120px) {
+    .yozuvi p {
+        margin-left: 300px;
+    }
+}
+
+@media (max-width:1025px) {
+    .yozuvi p {
+        margin-left: 270px;
+    }
+
+    .qorsidagi,
+    .qizilidagi {
+        font-size: 60px;
+    }
+}
+
+@media (max-width:1025px) {
+    .yozuvi p {
+        margin-left: 250px;
+    }
+
+    .qorsidagi,
+    .qizilidagi {
+        font-size: 50px;
+    }
+
+    .projects {
+        flex-wrap: wrap;
+    }
+
+
+    .projects img {
+        width: 310px;
+        border-radius: 20px;
+        box-shadow: 1px 1px 1px 1px;
+    }
+
+    .hei {
+        height: 550px;
+    }
+
+    .hei3 {
+        height: 550px;
+    }
+
+    .vrapper {
+        margin-left: 35px;
+    }
+}
+
+@media (max-width:870px) {
+    .yozuvi p {
+        margin-left: 180px;
+    }
+
+    .qorsidagi,
+    .qizilidagi {
+        font-size: 50px;
+    }
+
+    .projects {
+        flex-wrap: wrap;
+    }
+
+
+    .projects img {
+        width: 310px;
+        border-radius: 20px;
+        box-shadow: 1px 1px 1px 1px;
+    }
+
+    .hei {
+        height: 550px;
+    }
+
+    .hei3 {
+        height: 550px;
+    }
+
+    .vrapper {
+        margin-left: 35px;
+    }
+}
+
+@media (max-width:825px) {
+    .yozuvi p {
+        margin-left: 150px;
+    }
+
+    .qorsidagi,
+    .qizilidagi {
+        font-size: 50px;
+    }
+
+    .projects {
+        flex-wrap: wrap;
+    }
+
+
+    .projects img {
+        width: 310px;
+        border-radius: 20px;
+        box-shadow: 1px 1px 1px 1px;
+    }
+
+    .hei {
+        height: 550px;
+    }
+
+    .hei3 {
+        height: 550px;
+    }
+
+    .vrapper {
+        margin-left: 15px;
+    }
+}
+
+@media (max-width:800px) {
+    .yozuvi p {
+        margin-left: 130px;
+    }
+
+    .qorsidagi,
+    .qizilidagi {
+        font-size: 50px;
+    }
+
+    .projects {
+        flex-wrap: wrap;
+    }
+
+
+    .projects img {
+        width: 270px;
+        border-radius: 20px;
+        box-shadow: 1px 1px 1px 1px;
+    }
+
+    .hei {
+        height: 490px;
+    }
+
+    .hei3 {
+        height: 490px;
+    }
+
+    .vrapper {
+        margin-left: 15px;
+    }
+}
+
+@media (max-width:725px) {
+    .yozuvi p {
+        margin-left: 155px;
+        width: 400px;
+    }
+
+    .qorsidagi,
+    .qizilidagi {
+        font-size: 50px;
+    }
+
+    .projects {
+        flex-wrap: wrap;
+    }
+
+
+    .projects img {
+        width: 280px;
+        border-radius: 20px;
+        box-shadow: 1px 1px 1px 1px;
+    }
+
+    .hei {
+        height: 497px;
+    }
+
+    .hei3 {
+        height: 497px;
+    }
+
+    .yozuvi h1 {
+        font-size: 50px;
+    }
+
+    .vrapper {
+        margin-left: 15px;
+    }
+}
+
+@media (max-width:705px) {
+    .yozuvi p {
+        margin-left: 155px;
+        width: 400px;
+    }
+
+    .qorsidagi,
+    .qizilidagi {
+        font-size: 50px;
+        width: 700px;
+    }
+
+    .projects {
+        flex-wrap: wrap;
+    }
+
+
+    .projects img {
+        width: 280px;
+        border-radius: 20px;
+        box-shadow: 1px 1px 1px 1px;
+    }
+
+    .hei {
+        height: 497px;
+    }
+
+    .hei3 {
+        height: 497px;
+    }
+
+    .yozuvi h1 {
+        font-size: 50px;
+    }
+
+    .vrapper {
+        margin-left: 15px;
+    }
+}
+
+@media (max-width:680px) {
+    .yozuvi p {
+        margin-left: 140px;
+        width: 400px;
+    }
+
+    .qorsidagi,
+    .qizilidagi {
+        font-size: 50px;
+    }
+
+    .projects {
+        flex-wrap: wrap;
+    }
+
+    .projects img {
+        width: 280px;
+        border-radius: 20px;
+        box-shadow: 1px 1px 1px 1px;
+    }
+
+    .hei {
+        height: 497px;
+    }
+
+    .hei3 {
+        height: 497px;
+    }
+
+    .yozuvi h1 {
+        font-size: 50px;
+    }
+
+    .vrapper {
+        margin-left: 15px;
+    }
+}
+
+@media (max-width:646px) {
+    .yozuvi p {
+        margin-left: 110px;
+        width: 400px;
+    }
+
+    .qorsidagi,
+    .qizilidagi {
+        font-size: 50px;
+    }
+
+    .projects {
+        flex-wrap: wrap;
+    }
+
+    .projects img {
+        width: 250px;
+        border-radius: 20px;
+        box-shadow: 1px 1px 1px 1px;
+    }
+
+    .hei {
+        height: 440px;
+    }
+
+    .hei3 {
+        height: 440px;
+    }
+
+    .yozuvi h1 {
+        font-size: 50px;
+    }
+
+    .vrapper {
+        margin-left: 40px;
+    }
+}
+
+@media (max-width:625px) {
+    .yozuvi p {
+        margin-left: 90px;
+        width: 400px;
+    }
+
+    .qorsidagi,
+    .qizilidagi {
+        font-size: 40px;
+        margin-left: -70px;
+        width: 700px;
+    }
+
+    .projects {
+        flex-wrap: wrap;
+    }
+
+    .projects img {
+        width: 230px;
+        border-radius: 20px;
+        box-shadow: 1px 1px 1px 1px;
+    }
+
+    .hei {
+        height: 410px;
+    }
+
+    .hei3 {
+        height: 410px;
+    }
+
+    .yozuvi h1 {
+        font-size: 50px;
+    }
+
+    .vrapper {
+        margin-left: 100px;
+    }
+}
+
+@media (max-width:615px) {
+    .yozuvi p {
+        margin-left: 45px;
+        width: 400px;
+    }
+
+    .qorsidagi,
+    .qizilidagi {
+        font-size: 40px;
+        margin-left: -70px;
+        width: 700px;
+    }
+
+    .projects {
+        flex-wrap: wrap;
+    }
+
+    .projects img {
+        width: 210px;
+        border-radius: 20px;
+        box-shadow: 1px 1px 1px 1px;
+    }
+
+    .hei {
+        height: 390px;
+    }
+
+    .hei3 {
+        height: 380px;
+    }
+
+    .yozuvi h1 {
+        font-size: 50px;
+    }
+
+    .vrapper {
+        margin-left: 100px;
+    }
+}
+@media (max-width:570px) {
+    .yozuvi p {
+        margin-left: 5px;
+        width: 500px;
+        font-size: 30px;
+    }
+    .yozuvi h1{
+        font-size: 60px;
+    }
+    .yozuvi h4{
+        font-size: 30px;
+    }
+
+    .qorsidagi,
+    .qizilidagi {
+        font-size: 40px;
+        margin-left: -70px;
+        width: 700px;
+    }
+    .avarasm{
+        width: 400px;
+        border-radius: 400px;
+    }
+    .podps{
+        width: 500px;
+        margin-left: -50px;
+        margin-top: -200px;
+    }
+    .projects {
+        flex-wrap: wrap;
+    }
+
+    .projects img {
+        width: 350px;
+        border-radius: 20px;
+        box-shadow: 1px 1px 1px 1px;
+    }
+
+    .hei {
+        height: 600px;
+    }
+
+    .hei3 {
+        height: 600px;
+    }
+
+        .vrapper {
+        margin-left: 100px;
+    }
+}
+@media (max-width:570px) {
+    .yozuvi p {
+        margin-left: 5px;
+        width: 500px;
+        font-size: 30px;
+    }
+    .yozuvi h1{
+        font-size: 50px;
+    }
+    .yozuvi h4{
+        font-size: 30px;
+        width: 400px;
+        margin-left: 40px;
+    }
+
+    .qorsidagi,
+    .qizilidagi {
+        font-size: 40px;
+        margin-left: -70px;
+        width: 700px;
+    }
+    .avarasm{
+        width: 400px;
+        border-radius: 400px;
+    }
+    .podps{
+        width: 500px;
+        margin-left: -50px;
+        margin-top: -200px;
+    }
+    .projects {
+        flex-wrap: wrap;
+    }
+
+    .projects img {
+        width: 350px;
+        border-radius: 20px;
+        box-shadow: 1px 1px 1px 1px;
+        margin-left: 200px;
+    }
+
+    .hei {
+        height: 600px;
+    }
+
+    .hei3 {
+        height: 600px;
+    }
+
+        .vrapper {
+        margin-left: 100px;
+    }
+}
+@media (max-width:400px) {
+    .yozuvi p {
+        margin-left: 15px;
+        width: 500px;
+        font-size: 30px;
+    }
+    .yozuvi h1{
+        font-size: 50px;
+        margin-left: 100px;
+    }
+    .yozuvi h4{
+        font-size: 30px;
+        width: 400px;
+        margin-left: 60px;
+    }
+
+    .qorsidagi,
+    .qizilidagi {
+        font-size: 40px;
+        margin-left: -70px;
+        width: 700px;
+    }
+    .avarasm{
+        width: 400px;
+        border-radius: 400px;
+    }
+    .podps{
+        width: 500px;
+        margin-left: -50px;
+        margin-top: -200px;
+    }
+    .projects {
+        flex-wrap: wrap;
+    }
+
+    .projects img {
+        width: 350px;
+        border-radius: 20px;
+        box-shadow: 1px 1px 1px 1px;
+        margin-left: 260px;
+    }
+
+    .hei {
+        height: 600px;
+    }
+
+    .hei3 {
+        height: 600px;
+    }
+
+        .vrapper {
+        margin-left: 100px;
+    }
+}
