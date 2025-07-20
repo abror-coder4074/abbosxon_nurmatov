@@ -138,6 +138,9 @@
     .chziq{
         width: 800px;
     }
+    ::placeholder{
+        font-size: 20px;
+    }
 }
 @media (max-width:800px) {
     .shakll img{
@@ -219,16 +222,19 @@
 }
 @media (max-width:646px) {
     .shakll img{
-        margin-left: 600px;
+        margin-left: 570px;
     }
     .inpbtn{
-        margin-left: 20px;
+        margin-left: 200px;
     }
     .shakl{
         font-size: 60px;
     }
     .chziq{
         width: 650px;
+    }
+    ::placeholder{
+        font-size: 20px;
     }
 }
 @media (max-width:625px) {
