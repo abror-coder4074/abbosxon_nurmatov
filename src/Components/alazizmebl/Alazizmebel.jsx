@@ -22,7 +22,7 @@ const Alazizmebel = () => {
                     <img src={alazizpod} alt="" className='podps' />
                 </div>
                 <div className="yozuvi">
-                    <h1>alaziz_mebel</h1>
+                    <h1 className='al-aziz'>alaziz_mebel</h1>
                     <h4>Mebelchi</h4>
                     <p>3 oy ichida 25.000 ming obunachi olib kirganmiz va sotuvlari 3x ga oshishiga sababchi bo’lganmiz!</p>
                 </div>

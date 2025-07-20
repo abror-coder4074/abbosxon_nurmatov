@@ -99,6 +99,10 @@ video {
     .qizill {
         font-size: 50px;
     }
+
+    .qizill {
+        margin-top: 10px;
+    }
 }
 
 @media (max-width: 821px) {
@@ -115,6 +119,10 @@ video {
     .qizill {
         font-size: 50px;
     }
+
+    .qizill {
+        margin-top: 10px;
+    }
 }
 
 @media (max-width: 800px) {
@@ -130,6 +138,10 @@ video {
     .qoraa,
     .qizill {
         font-size: 50px;
+    }
+
+    .qizill {
+        margin-top: 10px;
     }
 
     .qqqq {
@@ -151,6 +163,10 @@ video {
     .qizill {
         font-size: 50px;
     }
+
+    .qizill {
+        margin-top: 10px;
+    }
 }
 
 @media (max-width: 725px) {
@@ -167,6 +183,10 @@ video {
     .qizill {
         font-size: 50px;
     }
+
+    .qizill {
+        margin-top: 10px;
+    }
 }
 
 @media (max-width: 691px) {
@@ -182,6 +202,9 @@ video {
     .qoraa,
     .qizill {
         font-size: 50px;
+    }
+    .qizill{
+        margin-top: 10px;
     }
 }
 
@@ -200,33 +223,16 @@ video {
         font-size: 40px;
         width: 700px;
     }
+    .qizill{
+        margin-top: 10px;
+    }
 
     .qqqq {
         margin-left: 20px;
     }
 }
+
 @media (max-width: 625px) {
-    video {
-        width: 600px;
-        margin-left: 45px;
-    }
-
-    .rassm {
-        margin-left: 100px;
-    }
-
-    .qoraa,
-    .qizill {
-        font-size: 40px;
-        width: 700px;
-        margin-left: -10px;
-    }
-
-    .qqqq {
-        margin-left: 20px;
-    }
-}
-@media (max-width: 450px) {
     video {
         width: 600px;
         margin-left: 45px;
@@ -250,6 +256,33 @@ video {
         margin-left: 20px;
     }
 }
+
+@media (max-width: 450px) {
+    video {
+        width: 600px;
+        margin-left: 45px;
+    }
+
+    .rassm {
+        margin-left: 100px;
+    }
+
+    .qoraa,
+    .qizill {
+        font-size: 40px;
+        width: 700px;
+        margin-left: -10px;
+    }
+
+    .qizill {
+        margin-top: 10px;
+    }
+
+    .qqqq {
+        margin-left: 20px;
+    }
+}
+
 @media (max-width: 400px) {
     video {
         width: 600px;
@@ -266,7 +299,33 @@ video {
         width: 700px;
         margin-left: -10px;
     }
-    .qizill{
+
+    .qizill {
+        margin-top: 10px;
+    }
+
+    .qqqq {
+        margin-left: 20px;
+    }
+}
+@media (max-width: 350px) {
+    video {
+        width: 600px;
+        margin-left: 45px;
+    }
+
+    .rassm {
+        margin-left: 100px;
+    }
+
+    .qoraa,
+    .qizill {
+        font-size: 40px;
+        width: 700px;
+        margin-left: -10px;
+    }
+
+    .qizill {
         margin-top: 10px;
     }
 

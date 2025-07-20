@@ -23,7 +23,7 @@ const Mubosherqurilish = () => {
                          <img src={mubosherpod} alt="" className='podps' />
                      </div>
                      <div className="yozuvi">
-                         <h1>mubosher_qurilish</h1>
+                         <h1 className='mubosherr'>mubosher_qurilish</h1>
                          <h4>Prorab</h4>
                          <p>6 oyda 150.000 ga yaqin obunachi yig’ganmiz!</p>
                      </div>

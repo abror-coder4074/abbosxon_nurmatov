@@ -22,7 +22,7 @@ const Otabekmemor = () => {
                    <img src={otamemorpod} alt="" className='podps' />
                </div>
                <div className="yozuvi">
-                   <h1>otabekmemor</h1>
+                   <h1 className='otabekmemori'>otabekmemor</h1>
                    <h4>Arxitektor, Dizayner</h4>
                    <p>4 oy ichida 3.000 obunachidan organik 21.000 obunachiga olib chiqdik!</p>
                </div>

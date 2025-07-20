@@ -22,7 +22,7 @@ const Abduraxmon = () => {
                     <img src={abdraxpod} alt="" className='podps' />
                 </div>
                 <div className="yozuvi">
-                    <h1>abdurahmon_islamov</h1>
+                    <h1 className='abdraxmon'>abdurahmon_islamov</h1>
                     <h4>Arxitektur va Dizayneri</h4>
                     <p>18 kun ichida 10.000 ming obunachi olib kirganmiz!</p>
                 </div>

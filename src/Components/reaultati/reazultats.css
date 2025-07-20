@@ -276,7 +276,23 @@
         height: 497px;
     }
 
-    .yozuvi h1 {
+    .qobilll {
+        font-size: 50px;
+    }
+
+    .al-aziz {
+        font-size: 50px;
+    }
+
+    .mubosherr {
+        font-size: 50px;
+    }
+
+    .abdraxmon {
+        font-size: 50px;
+    }
+
+    .otabekmemori {
         font-size: 50px;
     }
 
@@ -316,7 +332,23 @@
         height: 497px;
     }
 
-    .yozuvi h1 {
+    .qobilll {
+        font-size: 50px;
+    }
+
+    .al-aziz {
+        font-size: 50px;
+    }
+
+    .mubosherr {
+        font-size: 50px;
+    }
+
+    .abdraxmon {
+        font-size: 50px;
+    }
+
+    .otabekmemori {
         font-size: 50px;
     }
 
@@ -354,7 +386,23 @@
         height: 497px;
     }
 
-    .yozuvi h1 {
+    .qobilll {
+        font-size: 50px;
+    }
+
+    .al-aziz {
+        font-size: 50px;
+    }
+
+    .mubosherr {
+        font-size: 50px;
+    }
+
+    .abdraxmon {
+        font-size: 50px;
+    }
+
+    .otabekmemori {
         font-size: 50px;
     }
 
@@ -392,7 +440,23 @@
         height: 440px;
     }
 
-    .yozuvi h1 {
+    .qobilll {
+        font-size: 50px;
+    }
+
+    .al-aziz {
+        font-size: 50px;
+    }
+
+    .mubosherr {
+        font-size: 50px;
+    }
+
+    .abdraxmon {
+        font-size: 50px;
+    }
+
+    .otabekmemori {
         font-size: 50px;
     }
 
@@ -432,7 +496,23 @@
         height: 410px;
     }
 
-    .yozuvi h1 {
+    .qobilll {
+        font-size: 50px;
+    }
+
+    .al-aziz {
+        font-size: 50px;
+    }
+
+    .mubosherr {
+        font-size: 50px;
+    }
+
+    .abdraxmon {
+        font-size: 50px;
+    }
+
+    .otabekmemori {
         font-size: 50px;
     }
 
@@ -472,7 +552,23 @@
         height: 380px;
     }
 
-    .yozuvi h1 {
+    .qobilll {
+        font-size: 50px;
+    }
+
+    .al-aziz {
+        font-size: 50px;
+    }
+
+    .mubosherr {
+        font-size: 50px;
+    }
+
+    .abdraxmon {
+        font-size: 50px;
+    }
+
+    .otabekmemori {
         font-size: 50px;
     }
 
@@ -480,16 +576,37 @@
         margin-left: 100px;
     }
 }
+
 @media (max-width:570px) {
     .yozuvi p {
         margin-left: 5px;
         width: 500px;
         font-size: 30px;
     }
-    .yozuvi h1{
+
+    .qobilll {
+        font-size:60px;
+        margin-left: 20px;
+    }
+
+    .al-aziz {
+        font-size:60px;
+    }
+
+    .mubosherr {
+        font-size:60px;
+    }
+
+    .abdraxmon {
         font-size: 60px;
     }
-    .yozuvi h4{
+
+    .otabekmemori {
+        font-size:60px;
+        margin-left: 50px;
+    }
+
+    .yozuvi h4 {
         font-size: 30px;
     }
 
@@ -499,15 +616,18 @@
         margin-left: -70px;
         width: 700px;
     }
-    .avarasm{
+
+    .avarasm {
         width: 400px;
         border-radius: 400px;
     }
-    .podps{
+
+    .podps {
         width: 500px;
         margin-left: -50px;
         margin-top: -200px;
     }
+
     .projects {
         flex-wrap: wrap;
     }
@@ -516,6 +636,9 @@
         width: 350px;
         border-radius: 20px;
         box-shadow: 1px 1px 1px 1px;
+    }
+    .projects{
+        margin-left: -150px;
     }
 
     .hei {
@@ -526,73 +649,33 @@
         height: 600px;
     }
 
-        .vrapper {
+    .vrapper {
         margin-left: 100px;
     }
 }
-@media (max-width:570px) {
+
+@media (max-width:530px) {
     .yozuvi p {
         margin-left: 5px;
         width: 500px;
         font-size: 30px;
     }
-    .yozuvi h1{
-        font-size: 50px;
+
+    .qobilll{
+        margin-left: 100px;
     }
-    .yozuvi h4{
-        font-size: 30px;
-        width: 400px;
+    .otabekmemori{
+        margin-left: 70px;
+    }
+    .mubosherr{
         margin-left: 40px;
     }
-
-    .qorsidagi,
-    .qizilidagi {
-        font-size: 40px;
-        margin-left: -70px;
-        width: 700px;
-    }
-    .avarasm{
-        width: 400px;
-        border-radius: 400px;
-    }
-    .podps{
-        width: 500px;
-        margin-left: -50px;
-        margin-top: -200px;
-    }
-    .projects {
-        flex-wrap: wrap;
-    }
-
-    .projects img {
-        width: 350px;
-        border-radius: 20px;
-        box-shadow: 1px 1px 1px 1px;
-        margin-left: 200px;
-    }
-
-    .hei {
-        height: 600px;
-    }
-
-    .hei3 {
-        height: 600px;
-    }
-
-        .vrapper {
+    
+    .al-aziz{
         margin-left: 100px;
     }
-}
-@media (max-width:450px) {
-    .yozuvi p {
-        margin-left: 5px;
-        width: 500px;
-        font-size: 30px;
-    }
-    .yozuvi h1{
-        font-size: 50px;
-    }
-    .yozuvi h4{
+
+    .yozuvi h4 {
         font-size: 30px;
         width: 400px;
         margin-left: 40px;
@@ -605,19 +688,23 @@
         width: 700px;
     }
     .qizilidagi{
-        margin-top: 20px;
+        margin-top: 10px;
     }
-    .avarasm{
+
+    .avarasm {
         width: 400px;
         border-radius: 400px;
     }
-    .podps{
+
+    .podps {
         width: 500px;
         margin-left: -50px;
         margin-top: -200px;
     }
+
     .projects {
         flex-wrap: wrap;
+        margin-left: -80px;
     }
 
     .projects img {
@@ -635,24 +722,97 @@
         height: 600px;
     }
 
-        .vrapper {
+    .vrapper {
         margin-left: 100px;
     }
 }
+
+@media (max-width:450px) {
+    .yozuvi p {
+        margin-left: 5px;
+        width: 500px;
+        font-size: 30px;
+    }
+
+    .qobilll{
+        margin-left: 130px;
+    }
+    .otabekmemori{
+        margin-left: 80px;
+    }
+
+    .yozuvi h4 {
+        font-size: 30px;
+        width: 400px;
+        margin-left: 50px;
+    }
+
+    .qorsidagi,
+    .qizilidagi {
+        font-size: 40px;
+        margin-left: -70px;
+        width: 700px;
+    }
+
+    .qizilidagi {
+        margin-top: 20px;
+    }
+
+    .avarasm {
+        width: 400px;
+        border-radius: 400px;
+    }
+
+    .podps {
+        width: 500px;
+        margin-left: -50px;
+        margin-top: -200px;
+    }
+
+    .projects {
+        flex-wrap: wrap;
+        margin-left: -40px;
+    }
+
+    .projects img {
+        width: 350px;
+        border-radius: 20px;
+        box-shadow: 1px 1px 1px 1px;
+        margin-left: 200px;
+    }
+
+    .hei {
+        height: 600px;
+    }
+
+    .hei3 {
+        height: 600px;
+    }
+
+    .vrapper {
+        margin-left: 100px;
+    }
+}
+
 @media (max-width:400px) {
     .yozuvi p {
         margin-left: 15px;
         width: 500px;
         font-size: 30px;
     }
-    .yozuvi h1{
-        font-size: 50px;
-        margin-left: 100px;
+
+    .qobilll{
+        margin-left: 140px;
     }
-    .yozuvi{
+    .otabekmemori{
+        margin-left: 90px;
+    }
+
+    .yozuvi {
         text-align: center;
     }
-    .yozuvi h4{
+
+    .yozuvi h4 {
         font-size: 30px;
         width: 400px;
         margin-left: 60px;
@@ -664,18 +824,22 @@
         margin-left: -70px;
         width: 700px;
     }
-    .qizilidagi{
+
+    .qizilidagi {
         margin-top: 10px
     }
-    .avarasm{
+
+    .avarasm {
         width: 400px;
         border-radius: 400px;
     }
-    .podps{
+
+    .podps {
         width: 500px;
         margin-left: -50px;
         margin-top: -200px;
     }
+
     .projects {
         flex-wrap: wrap;
     }
@@ -695,7 +859,7 @@
         height: 600px;
     }
 
-        .vrapper {
+    .vrapper {
         margin-left: 100px;
     }
 }
