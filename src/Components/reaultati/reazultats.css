@@ -593,6 +593,9 @@
         font-size: 50px;
         margin-left: 100px;
     }
+    .yozuvi{
+        text-align: center;
+    }
     .yozuvi h4{
         font-size: 30px;
         width: 400px;
@@ -604,6 +607,9 @@
         font-size: 40px;
         margin-left: -70px;
         width: 700px;
+    }
+    .qizilidagi{
+        margin-top: 10px
     }
     .avarasm{
         width: 400px;

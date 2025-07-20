@@ -29,12 +29,6 @@ function Video() {
     );
 }
 
-// const Video = () => {
-//   return (
-//     <div>
-//       <video src={video}></video>
-//     </div>
-//   )
-// }
+
 
 export default Video

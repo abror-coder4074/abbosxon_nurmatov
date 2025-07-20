@@ -25,7 +25,7 @@ const Reazultats = () => {
                 <img src={qobiljigapod} alt="" className='podps' />
             </div>
             <div className="yozuvi">
-                <h1>Qobil_Jiga</h1>
+                <h1 className='qobilll'>Qobil_Jiga</h1>
                 <h4>Mashina ustasi</h4>
                 <p>12 oyda 150.000 obunachi yig’ganmiz va sotuvlarini 4-5 x ga oshirishga erishganmiz!</p>
             </div>
