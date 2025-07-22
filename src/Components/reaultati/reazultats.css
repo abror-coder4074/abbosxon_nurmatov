@@ -849,22 +849,19 @@ body {
         margin-left: 100px;
     }
 
-    .mySwiper {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 20px;
-    }
-
     .mySwiper .hei2 {
-        width: 170px;
+        width: 210px;
+        height: 400px;
+    }
+    .swiper{
+        width: 620px;
     }
 
     .mySwiper .hei3,
     .mySwiper .hei4,
     .mySwiper .hei {
-        width: 170px;
-        height: 300px;
+        width: 210px;
+        height: 400px;
     }
 }
 
