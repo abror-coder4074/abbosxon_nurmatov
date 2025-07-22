@@ -14,8 +14,10 @@ function Video() {
     return (
         <div className='qqqq'>
             <div className="fokada">
-                <h1 className='qoraa'>shaxsiy brend</h1>
-                <h1 className='qizill'>o'z ichiga nimalarni oladi</h1>
+                <div className="jaaad">
+                    <h1 className='qoraa'>shaxsiy brend</h1>
+                    <h1 className='qizill'>o'z ichiga nimalarni oladi</h1>
+                </div>
                 <div className="rassm">
                     <h3>Videoda batafsil tushuntirilgan</h3>
                     <img src={strelkaa} alt="" />

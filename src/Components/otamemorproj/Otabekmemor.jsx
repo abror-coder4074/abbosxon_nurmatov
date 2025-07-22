@@ -1,5 +1,10 @@
 import React, { useEffect } from 'react'
 import "./otabekmemor.css"
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/free-mode';
+import 'swiper/css/pagination';
+import { FreeMode, Pagination } from 'swiper/modules';
 import Otabekmemors from "../../../public/OTABEKMEMOR.PNG"
 import otamemorpod from "../../../public/otabekmemor.jpg"
 import otamem1 from "../../../public/otabekmemorproject2.jpg"
@@ -26,12 +31,21 @@ const Otabekmemor = () => {
                    <h4>Arxitektor, Dizayner</h4>
                    <p>4 oy ichida 3.000 obunachidan organik 21.000 obunachiga olib chiqdik!</p>
                </div>
-               <div className="projects" >
-                   <img src={otamem1} alt="" className='hei slide-image' data-aos="fade-right"/>
-                   <img src={otamem2} alt="" className='hei1 slide-image' data-aos="fade-right"/>
-                   <img src={otamem3} alt="" className='hei2 slide-image' data-aos="fade-right"/>
-                   <img src={otamem4} alt="" className='hei3 slide-image' data-aos="fade-right"/>
-               </div>
+               <Swiper
+                slidesPerView={3}
+                spaceBetween={30}
+                freeMode={true}
+                pagination={{
+                    clickable: true,
+                }}
+                modules={[FreeMode, Pagination]}
+                className="mySwiper"
+            >
+                <SwiperSlide><img className='hei2' src={otamem1} alt="" /></SwiperSlide>
+                <SwiperSlide><img className='hei3' src={otamem2} alt="" /></SwiperSlide>
+                <SwiperSlide><img className='hei' src={otamem3} alt="" /></SwiperSlide>
+                <SwiperSlide><img className='hei4' src={otamem4} alt="" /></SwiperSlide>
+            </Swiper>
            </div>
   )
 }

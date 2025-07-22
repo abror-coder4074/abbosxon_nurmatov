@@ -4,7 +4,7 @@
 }
 .bir label{
     font-size: 2rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Montserrat , sans-serif;
     font-weight: bold;
     margin-left: 30px;
 }
@@ -18,7 +18,7 @@
 }
 .chziq{
     background: gray;
-    width: 1650px;
+    width: 1550px;
     height: 1px;
     border-radius: 10px;
     margin-top: 30px;
@@ -36,6 +36,11 @@
     font-size: 80px;
     text-align: center;
     margin-top: 100px;
+    font-family: Montserrat , sans-serif;
+}
+::placeholder{
+    font-family: Montserrat , sans-serif;
+    
 }
 .inpbtn{
     width: 270px;

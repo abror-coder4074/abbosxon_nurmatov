@@ -1,3 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    font-family:
+        Helvetica Neue,
+        Helvetica,
+        Arial,
+        sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper {
+    width: 800px;
+    margin-top: 30px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.mySwiper img {
+    width: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.mySwiper .hei3 {
+    width: 250px;
+    height: 446px;
+    object-fit: cover;
+}
+
+.mySwiper .hei4 {
+    width: 250px;
+    height: 446px;
+    object-fit: cover;
+}
+
+.mySwiper .hei {
+    width: 250px;
+    height: 446px;
+    object-fit: cover;
+}
+
 .titlesi {
     text-align: center;
     text-transform: uppercase;
@@ -7,7 +72,7 @@
 .qorsidagi {
     font-size: 70px;
     color: black;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 .qizilidagi {
@@ -15,7 +80,8 @@
     font-weight: 700;
     color: #D15555;
     margin-top: -20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Montserrat", sans-serif;
+
 }
 
 .vrapper {
@@ -43,15 +109,15 @@
 .yozuvi h1 {
     font-size: 50px;
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-transform: capitalize;
+    font-family: "Montserrat", sans-serif;
     margin-top: 30px;
 }
 
 .yozuvi h4 {
     font-size: 17px;
     color: rgb(97, 97, 97);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Montserrat", sans-serif;
     margin-top: 10px;
 }
 
@@ -62,6 +128,8 @@
     margin-left: 600px;
     color: #333;
     font-weight: 600;
+    font-family: "Saira", sans-serif;
+
 }
 
 .projects {
@@ -78,13 +146,6 @@
     box-shadow: 1px 1px 1px 1px;
 }
 
-.hei {
-    height: 350px;
-}
-
-.hei3 {
-    height: 350px;
-}
 
 
 @media (max-width:1246px) {
@@ -93,20 +154,20 @@
     }
 }
 
-@media (max-width:1120px) {
+@media (max-width:1160px) {
     .yozuvi p {
         margin-left: 300px;
-    }
-}
-
-@media (max-width:1025px) {
-    .yozuvi p {
-        margin-left: 270px;
     }
 
     .qorsidagi,
     .qizilidagi {
         font-size: 60px;
+    }
+}
+
+@media (max-width:1120px) {
+    .yozuvi p {
+        margin-left: 300px;
     }
 }
 
@@ -119,7 +180,19 @@
     .qizilidagi {
         font-size: 50px;
     }
-    .qizilidagi{
+}
+
+@media (max-width:1025px) {
+    .yozuvi p {
+        margin-left: 250px;
+    }
+
+    .qorsidagi,
+    .qizilidagi {
+        font-size: 50px;
+    }
+
+    .qizilidagi {
         margin-top: 10px;
     }
 
@@ -167,7 +240,8 @@
     .qizilidagi {
         font-size: 50px;
     }
-    .qizilidagi{
+
+    .qizilidagi {
         margin-top: 10px;
     }
 
@@ -204,7 +278,8 @@
     .qizilidagi {
         font-size: 50px;
     }
-    .qizilidagi{
+
+    .qizilidagi {
         margin-top: 10px;
     }
 
@@ -230,6 +305,21 @@
     .vrapper {
         margin-left: 35px;
     }
+
+    .swiper {
+        width: 600px;
+    }
+
+    .mySwiper .hei2 {
+        width: 200px;
+    }
+
+    .mySwiper .hei3,
+    .mySwiper .hei4,
+    .mySwiper .hei {
+        width: 200px;
+        height: 350px;
+    }
 }
 
 @media (max-width:825px) {
@@ -241,7 +331,8 @@
     .qizilidagi {
         font-size: 50px;
     }
-    .qizilidagi{
+
+    .qizilidagi {
         margin-top: 10px;
     }
 
@@ -278,7 +369,8 @@
     .qizilidagi {
         font-size: 50px;
     }
-    .qizilidagi{
+
+    .qizilidagi {
         margin: 10px;
     }
 
@@ -316,7 +408,8 @@
     .qizilidagi {
         font-size: 50px;
     }
-    .qizilidagi{
+
+    .qizilidagi {
         margin-top: 10px;
     }
 
@@ -372,10 +465,10 @@
 
     .qorsidagi,
     .qizilidagi {
-        font-size: 50px;
-        width: 700px;
+        font-size: 36px;
     }
-    .qizilidagi{
+
+    .qizilidagi {
         margin-top: 10px;
     }
 
@@ -388,14 +481,6 @@
         width: 280px;
         border-radius: 20px;
         box-shadow: 1px 1px 1px 1px;
-    }
-
-    .hei {
-        height: 497px;
-    }
-
-    .hei3 {
-        height: 497px;
     }
 
     .qobilll {
@@ -421,6 +506,17 @@
     .vrapper {
         margin-left: 15px;
     }
+
+    .mySwiper .hei2 {
+        width: 170px;
+    }
+
+    .mySwiper .hei3,
+    .mySwiper .hei4,
+    .mySwiper .hei {
+        width: 170px;
+        height: 300px;
+    }
 }
 
 @media (max-width:680px) {
@@ -434,7 +530,8 @@
         font-size: 45px;
         margin-left: -10px;
     }
-    .qizilidagi{
+
+    .qizilidagi {
         margin-top: 10px;
     }
 
@@ -492,7 +589,8 @@
         font-size: 40px;
         margin-left: -30px;
     }
-    .qizilidagi{
+
+    .qizilidagi {
         margin-top: 10px;
     }
 
@@ -551,7 +649,8 @@
         margin-left: -70px;
         width: 700px;
     }
-    .qizilidagi{
+
+    .qizilidagi {
         margin-top: 10px;
     }
 
@@ -600,24 +699,26 @@
 
 @media (max-width:615px) {
     .yozuvi p {
-        margin-left: 60px;
+        margin-left: 40px;
         width: 400px;
     }
 
     .qorsidagi,
     .qizilidagi {
         font-size: 40px;
-        margin-left: -90px;
+        margin-left: -120px;
         width: 700px;
     }
-    .qizilidagi{
+
+    .qizilidagi {
         margin-top: 10px;
     }
 
     .projects {
         flex-wrap: wrap;
     }
-    .yozuvi h4{
+
+    .yozuvi h4 {
         font-size: 23px;
     }
 
@@ -627,14 +728,6 @@
         box-shadow: 1px 1px 1px 1px;
     }
 
-    .hei {
-        height: 370px;
-    }
-
-    .hei3 {
-        height: 380px;
-    }
-
     .qobilll {
         font-size: 50px;
     }
@@ -649,6 +742,7 @@
 
     .abdraxmon {
         font-size: 50px;
+        margin-left: -40px;
     }
 
     .otabekmemori {
@@ -658,27 +752,46 @@
     .vrapper {
         margin-left: 100px;
     }
+
+    .swiper {
+        width: 550px;
+    }
+
+    .mySwiper {
+        margin-left: -1050px;
+    }
+
+    .mySwiper .hei2 {
+        width: 170px;
+    }
+
+    .mySwiper .hei3,
+    .mySwiper .hei4,
+    .mySwiper .hei {
+        width: 170px;
+        height: 300px;
+    }
 }
 
 @media (max-width:570px) {
     .yozuvi p {
-        margin-left: 5px;
+        margin-left: 15px;
         width: 500px;
         font-size: 30px;
     }
 
     .qobilll {
-        font-size:60px;
+        font-size: 60px;
         margin-left: 70px;
     }
 
     .al-aziz {
-        font-size:60px;
+        font-size: 60px;
         margin-left: 70px;
     }
 
     .mubosherr {
-        font-size:60px;
+        font-size: 60px;
         margin-left: 40px;
     }
 
@@ -687,7 +800,7 @@
     }
 
     .otabekmemori {
-        font-size:60px;
+        font-size: 60px;
         margin-left: 70px;
     }
 
@@ -702,7 +815,8 @@
         margin-left: -90px;
         width: 700px;
     }
-    .qizilidagi{
+
+    .qizilidagi {
         margin-top: 10px;
     }
 
@@ -726,20 +840,31 @@
         border-radius: 20px;
         box-shadow: 1px 1px 1px 1px;
     }
-    .projects{
+
+    .projects {
         margin-left: 70px;
-    }
-
-    .hei {
-        height: 600px;
-    }
-
-    .hei3 {
-        height: 600px;
     }
 
     .vrapper {
         margin-left: 100px;
+    }
+
+    .mySwiper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .mySwiper .hei2 {
+        width: 170px;
+    }
+
+    .mySwiper .hei3,
+    .mySwiper .hei4,
+    .mySwiper .hei {
+        width: 170px;
+        height: 300px;
     }
 }
 
@@ -750,17 +875,19 @@
         font-size: 30px;
     }
 
-    .qobilll{
+    .qobilll {
         margin-left: 100px;
     }
-    .otabekmemori{
+
+    .otabekmemori {
         margin-left: 70px;
     }
-    .mubosherr{
+
+    .mubosherr {
         margin-left: 40px;
     }
-    
-    .al-aziz{
+
+    .al-aziz {
         margin-left: 100px;
     }
 
@@ -776,7 +903,8 @@
         margin-left: -90px;
         width: 700px;
     }
-    .qizilidagi{
+
+    .qizilidagi {
         margin-top: 10px;
     }
 
@@ -816,17 +944,26 @@
     }
 }
 
-@media (max-width:450px) {
+@media (max-width:445px) {
     .yozuvi p {
-        margin-left: 5px;
+        margin-left: 10px;
         width: 500px;
         font-size: 30px;
     }
 
-    .qobilll{
-        margin-left: 130px;
+    .qobilll {
+        margin-left: 120px;
     }
-    .otabekmemori{
+
+    .otabekmemori {
+        margin-left: 70px;
+    }
+
+    .mubosherr {
+        margin-left: 20px;
+    }
+
+    .al-aziz {
         margin-left: 80px;
     }
 
@@ -890,10 +1027,11 @@
         font-size: 30px;
     }
 
-    .qobilll{
+    .qobilll {
         margin-left: 140px;
     }
-    .otabekmemori{
+
+    .otabekmemori {
         margin-left: 90px;
     }
 
@@ -952,17 +1090,19 @@
         margin-left: 100px;
     }
 }
+
 @media (max-width:395px) {
     .yozuvi p {
-        margin-left: 15px;
+        margin-left: 10px;
         width: 500px;
         font-size: 30px;
     }
 
-    .qobilll{
+    .qobilll {
         margin-left: 130px;
     }
-    .otabekmemori{
+
+    .otabekmemori {
         margin-left: 90px;
     }
 

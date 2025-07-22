@@ -1,6 +1,11 @@
 import React, { useEffect } from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/free-mode';
+import 'swiper/css/pagination';
+import { FreeMode, Pagination } from 'swiper/modules';
 import azalziz from "../../../public/ALAZIZMEBEL.PNG"
 import alazizpod from "../../../public/alazizpodps.jpg"
 import alaz1 from '../../../public/alazizproject1.jpg'
@@ -26,12 +31,21 @@ const Alazizmebel = () => {
                     <h4>Mebelchi</h4>
                     <p>3 oy ichida 25.000 ming obunachi olib kirganmiz va sotuvlari 3x ga oshishiga sababchi bo’lganmiz!</p>
                 </div>
-                <div className="projects" >
-                    <img src={alaz1} alt="" className='hei slide-image' data-aos="fade-right" />
-                    <img src={alaz2} alt="" className='hei1 slide-image' data-aos="fade-right" />
-                    <img src={alaz3} alt="" className='hei2 slide-image' data-aos="fade-right" />
-                    <img src={alaz4} alt="" className='hei3 slide-image' data-aos="fade-right" />
-                </div>
+                <Swiper
+                slidesPerView={3}
+                spaceBetween={30}
+                freeMode={true}
+                pagination={{
+                    clickable: true,
+                }}
+                modules={[FreeMode, Pagination]}
+                className="mySwiper"
+            >
+                <SwiperSlide><img className='hei2' src={alaz1} alt="" /></SwiperSlide>
+                <SwiperSlide><img className='hei3' src={alaz2} alt="" /></SwiperSlide>
+                <SwiperSlide><img className='hei' src={alaz3} alt="" /></SwiperSlide>
+                <SwiperSlide><img className='hei4' src={alaz4} alt="" /></SwiperSlide>
+            </Swiper>
             </div>
         </div>
     )

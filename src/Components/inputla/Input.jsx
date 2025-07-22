@@ -62,7 +62,7 @@ const Input = () => {
                 </div>
                 <div className="chziq"></div>
                 <div className="bir">
-                    <label htmlFor="text">Hamkorlik uchun so'rov. Nimani hal qilmoqchisiz?</label>
+                    <label htmlFor="text">Hamkorlik uchun so'rov?</label>
                     <input ref={callRef} type="text" placeholder='Sorovingizni yozing....' />
                 </div>
                 <div className="chziq"></div>

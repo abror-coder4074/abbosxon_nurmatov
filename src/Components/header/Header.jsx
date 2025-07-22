@@ -12,12 +12,10 @@ const Header = () => {
                     <h1 className='dsad'>Nurmatov</h1>
                 </div>
                 <ul>
-                    <li><a className='qq' href="/qobiljiga" >Nimalar kiritilgan</a></li>
-                    <li><a href="">Jarayon</a></li>
+                    <li><a href="qobiljiga">Jarayon</a></li>
                     <li><a href="">Holatlar</a></li>
                     <li><a href="">Anketa</a></li>
                 </ul>
-                {/* <button className='buttonsas' data-aos="fade-left">So'rov qoldiring</button> */}
             </nav>
             <div className="wrapper">
                 <div className="titletaraf" data-aos="fade-right">
