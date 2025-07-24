@@ -775,44 +775,46 @@ body {
 
 @media (max-width:570px) {
     .yozuvi p {
-        margin-left: 15px;
+        margin-left: -50px;
         width: 500px;
         font-size: 30px;
     }
 
     .qobilll {
         font-size: 60px;
-        margin-left: 70px;
+        margin-left: 50px;
     }
 
     .al-aziz {
         font-size: 60px;
-        margin-left: 70px;
+        margin-left: 20px;
     }
 
     .mubosherr {
-        font-size: 60px;
-        margin-left: 40px;
+        font-size: 40px;
+        margin-left: -45px;
     }
 
     .abdraxmon {
-        font-size: 60px;
+        font-size: 10px;
+        margin-left: -60px;
     }
 
     .otabekmemori {
         font-size: 60px;
-        margin-left: 70px;
+        margin-left: 0px;
     }
 
     .yozuvi h4 {
-        font-size: 30px;
-        margin-left: 80px;
+        font-size: 25px;
+        width: 300px;
+        margin-left: 40px;
     }
 
     .qorsidagi,
     .qizilidagi {
-        font-size: 40px;
-        margin-left: -90px;
+        font-size: 30px;
+        margin-left: -150px;
         width: 700px;
     }
 
@@ -821,13 +823,14 @@ body {
     }
 
     .avarasm {
-        width: 400px;
+        width: 300px;
         border-radius: 400px;
+        margin-left: -15px;
     }
 
     .podps {
-        width: 500px;
-        margin-left: -50px;
+        width: 350px;
+        margin-left: -40px;
         margin-top: -200px;
     }
 
@@ -855,6 +858,7 @@ body {
     }
     .swiper{
         width: 620px;
+        margin-right: 100px;
     }
 
     .mySwiper .hei3,
@@ -865,7 +869,7 @@ body {
     }
 }
 
-@media (max-width:530px) {
+/* @media (max-width:530px) {
     .yozuvi p {
         margin-left: 5px;
         width: 500px;
@@ -1157,4 +1161,4 @@ body {
     .vrapper {
         margin-left: 100px;
     }
-}
+} */
