@@ -302,6 +302,26 @@
     }
     .shakl{
         font-size: 40px;
+        width: 700px;
+        margin-left: 20px;
+    }
+    .chziq{
+        width: 580px;
+    }
+    .iisd{
+        margin-left: 40px;
+    }
+}
+@media (max-width:410px) {
+    .shakll img{
+        margin-left: 400px;
+    }
+    .inpbtn{
+        margin-left: 170px;
+    }
+    .shakl{
+        font-size: 40px;
+        width: 700px;
     }
     .chziq{
         width: 580px;
