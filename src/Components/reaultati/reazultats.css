@@ -768,7 +768,8 @@ body {
     }
 
     .mySwiper {
-        margin-left: -1050px;
+        width: 500px !important;
+        margin-left: -70px !important;
     }
 
     .mySwiper .hei2 {
@@ -853,7 +854,8 @@ body {
     }
 
     .mySwiper {
-        margin-left: -1050px;
+        width: 500px !important;
+        margin-left: -70px !important;
     }
 
     .mySwiper .hei2 {
@@ -925,7 +927,7 @@ body {
     }
 
     .mubosherr {
-        font-size: 50px;
+        font-size: 40px;
         margin-left: -120px;
     }
 
@@ -948,18 +950,19 @@ body {
     }
 
     .mySwiper {
-        margin-left: -1050px;
+        width: 500px !important;
+        margin-left: -90px !important;
     }
 
     .mySwiper .hei2 {
-        width: 170px;
+        width: 160px;
     }
 
     .mySwiper .hei3,
     .mySwiper .hei4,
     .mySwiper .hei {
-        width: 170px;
-        height: 300px;
+        width: 160px;
+        height: 285px;
     }
 }
 @media (max-width: 450px) {
@@ -1043,18 +1046,19 @@ body {
     }
 
     .mySwiper {
-        margin-left: -1050px;
+        width: 450px !important;
+        margin-left: -90px !important;
     }
 
     .mySwiper .hei2 {
-        width: 170px;
+        width: 150px;
     }
 
     .mySwiper .hei3,
     .mySwiper .hei4,
     .mySwiper .hei {
-        width: 170px;
-        height: 300px;
+        width: 150px;
+        height: 269px;
     }
 }
 @media (max-width: 400px) {
@@ -1139,17 +1143,18 @@ body {
     }
 
     .mySwiper {
-        margin-left: -1050px;
+        width: 450px !important;
+        margin-left: -90px !important;
     }
 
     .mySwiper .hei2 {
-        width: 170px;
+        width: 150px;
     }
 
     .mySwiper .hei3,
     .mySwiper .hei4,
     .mySwiper .hei {
-        width: 170px;
-        height: 300px;
+        width: 150px;
+        height: 269px;
     }
 }
