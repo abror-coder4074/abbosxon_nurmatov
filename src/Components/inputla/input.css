@@ -331,7 +331,7 @@
         width: 400px;
     }
 }
-@media (max-width: 450px) {
+@media (max-width: 400px) {
     .shakll img{
         margin-left: 330px;
     }
@@ -346,6 +346,24 @@
         margin-left: -30px;
     }
     .chziq{
-        width: 400px;
+        width: 300px;
+    }
+}
+@media (max-width: 350px) {
+    .shakll img{
+        margin-left: 330px;
+    }
+    .inpbtn{
+        margin-left: 100px;
+    }
+    .inputlaa{
+        margin-left: -30px;
+    }
+    .shakl{
+        font-size: 35px;
+        margin-left: -30px;
+    }
+    .chziq{
+        width: 300px;
     }
 }
