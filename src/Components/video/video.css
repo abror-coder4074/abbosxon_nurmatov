@@ -451,6 +451,44 @@ video {
         margin-left: 20px;
     }
 }
+@media (max-width: 430px) {
+    video {
+        width: 350px;
+        height: 400px;
+        margin-left: 20px;
+    }
+
+    .rassm {
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+
+    .rassm h3 {
+        font-size: 15px;
+        margin-left: -20px;
+    }
+
+    .rassm img {
+        width: 40px;
+        margin-left: 100px;
+        margin-top: -20px;
+    }
+
+    .qoraa,
+    .qizill {
+        font-size: 25px;
+        width: 700px;
+        margin-left: -160px;
+    }
+
+    .qizill {
+        margin-top: 10px;
+    }
+
+    .qqqq {
+        margin-left: 20px;
+    }
+}
 @media (max-width: 400px) {
     video {
         width: 350px;

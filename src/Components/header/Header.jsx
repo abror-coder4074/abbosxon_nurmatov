@@ -12,7 +12,7 @@ const Header = () => {
                     <h1 className='dsad'>Nurmatov</h1>
                 </div>
                 <ul>
-                    <li><a className='qobiljiga' href="">Jarayon</a></li>
+                    <li><a className='qobiljigaa' href="">Jarayon</a></li>
                     <li><a href="">Holatlar</a></li>
                     <li><a href="">Anketa</a></li>
                 </ul>

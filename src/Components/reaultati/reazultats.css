@@ -106,7 +106,7 @@ body {
     margin-top: 50px;
 }
 
-.yozuvi h1 {
+.mubosherr,.abdraxmon,.otabekmemori,.al-aziz,.qobilll {
     font-size: 50px;
     text-align: center;
     text-transform: capitalize;
@@ -441,7 +441,7 @@ body {
     }
 
     .mubosherr {
-        font-size: 50px;
+        font-size: 30px;
     }
 
     .abdraxmon {
@@ -685,7 +685,7 @@ body {
     }
 
     .abdraxmon {
-        font-size: 50px;
+        font-size: 0px;
     }
 
     .otabekmemori {
@@ -699,14 +699,14 @@ body {
 
 @media (max-width:615px) {
     .yozuvi p {
-        margin-left: 40px;
+        margin-left: 0px;
         width: 400px;
     }
 
     .qorsidagi,
     .qizilidagi {
-        font-size: 40px;
-        margin-left: -120px;
+        font-size: 30px;
+        margin-left: -150px;
         width: 700px;
     }
 
@@ -720,6 +720,7 @@ body {
 
     .yozuvi h4 {
         font-size: 23px;
+        margin-left: -120px;
     }
 
     .projects img {
@@ -727,26 +728,35 @@ body {
         border-radius: 20px;
         box-shadow: 1px 1px 1px 1px;
     }
+    .avarasm {
+        width: 300px;
+        border-radius: 400px;
+        margin-left: -120px;
+    }
 
     .qobilll {
         font-size: 50px;
+        margin-left: -120px;
     }
 
     .al-aziz {
         font-size: 50px;
+        margin-left: -120px;
     }
 
     .mubosherr {
         font-size: 50px;
+        margin-left: -120px;
     }
 
     .abdraxmon {
-        font-size: 50px;
-        margin-left: -40px;
+        font-size: 10px;
+        margin-left: -120px;
     }
 
     .otabekmemori {
         font-size: 50px;
+        margin-left: -120px;
     }
 
     .vrapper {
@@ -772,49 +782,16 @@ body {
         height: 300px;
     }
 }
-
-@media (max-width:570px) {
+@media (max-width: 550px) {
     .yozuvi p {
-        margin-left: -50px;
-        width: 500px;
-        font-size: 30px;
-    }
-
-    .qobilll {
-        font-size: 60px;
-        margin-left: 50px;
-    }
-
-    .al-aziz {
-        font-size: 60px;
-        margin-left: 20px;
-    }
-
-    .mubosherr {
-        font-size: 40px;
         margin-left: -45px;
-    }
-
-    .abdraxmon {
-        font-size: 10px;
-        margin-left: -60px;
-    }
-
-    .otabekmemori {
-        font-size: 60px;
-        margin-left: 0px;
-    }
-
-    .yozuvi h4 {
-        font-size: 25px;
-        width: 300px;
-        margin-left: 40px;
+        width: 400px;
     }
 
     .qorsidagi,
     .qizilidagi {
         font-size: 30px;
-        margin-left: -150px;
+        margin-left: -190px;
         width: 700px;
     }
 
@@ -822,343 +799,357 @@ body {
         margin-top: 10px;
     }
 
-    .avarasm {
-        width: 300px;
-        border-radius: 400px;
-        margin-left: -15px;
-    }
-
-    .podps {
-        width: 350px;
-        margin-left: -40px;
-        margin-top: -200px;
-    }
-
     .projects {
         flex-wrap: wrap;
     }
 
+    .yozuvi h4 {
+        font-size: 23px;
+        margin-left: -120px;
+    }
+
     .projects img {
-        width: 350px;
+        width: 210px;
         border-radius: 20px;
         box-shadow: 1px 1px 1px 1px;
     }
+    .avarasm {
+        width: 300px;
+        border-radius: 400px;
+        margin-left: -120px;
+    }
 
-    .projects {
-        margin-left: 70px;
+    .qobilll {
+        font-size: 50px;
+        margin-left: -120px;
+    }
+
+    .al-aziz {
+        font-size: 50px;
+        margin-left: -120px;
+    }
+
+    .mubosherr {
+        font-size: 50px;
+        margin-left: -120px;
+    }
+
+    .abdraxmon {
+        font-size: 10px;
+        margin-left: -120px;
+    }
+
+    .otabekmemori {
+        font-size: 50px;
+        margin-left: -120px;
     }
 
     .vrapper {
         margin-left: 100px;
     }
 
-    .mySwiper .hei2 {
-        width: 210px;
-        height: 400px;
+    .swiper {
+        width: 550px;
     }
-    .swiper{
-        width: 620px;
-        margin-right: 100px;
+
+    .mySwiper {
+        margin-left: -1050px;
+    }
+
+    .mySwiper .hei2 {
+        width: 170px;
     }
 
     .mySwiper .hei3,
     .mySwiper .hei4,
     .mySwiper .hei {
-        width: 210px;
-        height: 400px;
+        width: 170px;
+        height: 300px;
     }
 }
-
-@media (max-width:550px) {
+@media (max-width: 500px) {
     .yozuvi p {
-        margin-left: 5px;
-        width: 500px;
-        font-size: 30px;
-    }
-
-    .qobilll {
-        margin-left: 100px;
-    }
-
-    .otabekmemori {
-        margin-left: 70px;
-    }
-
-    .mubosherr {
-        margin-left: 40px;
-    }
-
-    .al-aziz {
-        margin-left: 100px;
-    }
-
-    .yozuvi h4 {
-        font-size: 30px;
+        margin-left: -60px;
         width: 400px;
-        margin-left: 60px;
     }
 
     .qorsidagi,
     .qizilidagi {
-        font-size: 30px;
-        margin-left: 10px;
+        font-size: 25px;
+        margin-left: -220px;
         width: 700px;
     }
 
     .qizilidagi {
         margin-top: 10px;
     }
-
-    .avarasm {
-        width: 400px;
-        border-radius: 400px;
-    }
-
-    .podps {
-        width: 500px;
-        margin-left: -50px;
-        margin-top: -200px;
-    }
-
+    
     .projects {
         flex-wrap: wrap;
-        margin-left: -100px;
+    }
+
+    .yozuvi h4 {
+        font-size: 23px;
+        margin-left: -120px;
     }
 
     .projects img {
-        width: 350px;
+        width: 210px;
         border-radius: 20px;
         box-shadow: 1px 1px 1px 1px;
-        margin-left: 200px;
     }
-
-    .hei {
-        height: 600px;
+    .qobiljiga{
+        margin-left: -0px;
+        margin-top: 30px;
     }
-
-    .hei3 {
-        height: 600px;
+    .avarasm {
+        width: 270px;
+        border-radius: 400px;
+        margin-left: -120px;
     }
-
-    .vrapper {
-        margin-left: 100px;
-    }
-}
-
-@media (max-width:445px) {
-    .yozuvi p {
-        margin-left: 10px;
-        width: 500px;
-        font-size: 30px;
+    .podps{
+        width: 350px;
+        border-radius: 20px;
+        margin-left: -120px;
+        margin-top: -80px;
     }
 
     .qobilll {
-        margin-left: 120px;
-    }
-
-    .otabekmemori {
-        margin-left: 70px;
-    }
-
-    .mubosherr {
-        margin-left: 20px;
+        font-size: 50px;
+        margin-left: -120px;
     }
 
     .al-aziz {
-        margin-left: 80px;
+        font-size: 50px;
+        margin-left: -120px;
     }
 
-    .yozuvi h4 {
-        font-size: 30px;
-        width: 400px;
-        margin-left: 50px;
+    .mubosherr {
+        font-size: 50px;
+        margin-left: -120px;
     }
 
-    .qorsidagi,
-    .qizilidagi {
-        font-size: 40px;
-        margin-left: -90px;
-        width: 700px;
-    }
-
-    .qizilidagi {
-        margin-top: 20px;
-    }
-
-    .avarasm {
-        width: 400px;
-        border-radius: 400px;
-    }
-
-    .podps {
-        width: 500px;
-        margin-left: -50px;
-        margin-top: -200px;
-    }
-
-    .projects {
-        flex-wrap: wrap;
-        margin-left: -40px;
-    }
-
-    .projects img {
-        width: 350px;
-        border-radius: 20px;
-        box-shadow: 1px 1px 1px 1px;
-        margin-left: 200px;
-    }
-
-    .hei {
-        height: 600px;
-    }
-
-    .hei3 {
-        height: 600px;
-    }
-
-    .vrapper {
-        margin-left: 100px;
-    }
-}
-
-@media (max-width:400px) {
-    .yozuvi p {
-        margin-left: 15px;
-        width: 500px;
-        font-size: 30px;
-    }
-
-    .qobilll {
-        margin-left: 140px;
+    .abdraxmon {
+        font-size: 10px;
+        margin-left: -120px;
     }
 
     .otabekmemori {
-        margin-left: 90px;
-    }
-
-    .yozuvi {
-        text-align: center;
-    }
-
-    .yozuvi h4 {
-        font-size: 30px;
-        width: 400px;
-        margin-left: 60px;
-    }
-
-    .qorsidagi,
-    .qizilidagi {
-        font-size: 40px;
-        margin-left: -90px;
-        width: 700px;
-    }
-
-    .qizilidagi {
-        margin-top: 10px
-    }
-
-    .avarasm {
-        width: 400px;
-        border-radius: 400px;
-    }
-
-    .podps {
-        width: 500px;
-        margin-left: -50px;
-        margin-top: -200px;
-    }
-
-    .projects {
-        flex-wrap: wrap;
-    }
-
-    .projects img {
-        width: 350px;
-        border-radius: 20px;
-        box-shadow: 1px 1px 1px 1px;
-        margin-left: 260px;
-    }
-
-    .hei {
-        height: 600px;
-    }
-
-    .hei3 {
-        height: 600px;
+        font-size: 50px;
+        margin-left: -120px;
     }
 
     .vrapper {
         margin-left: 100px;
     }
-}
 
-@media (max-width:395px) {
+    .swiper {
+        width: 550px;
+    }
+
+    .mySwiper {
+        margin-left: -1050px;
+    }
+
+    .mySwiper .hei2 {
+        width: 170px;
+    }
+
+    .mySwiper .hei3,
+    .mySwiper .hei4,
+    .mySwiper .hei {
+        width: 170px;
+        height: 300px;
+    }
+}
+@media (max-width: 450px) {
     .yozuvi p {
-        margin-left: 10px;
-        width: 500px;
-        font-size: 30px;
+        margin-left: -80px;
+        width: 400px;
+    }
+
+    .qorsidagi,
+    .qizilidagi {
+        font-size: 25px;
+        margin-left: -220px;
+        width: 700px;
+    }
+
+    .qizilidagi {
+        margin-top: 10px;
+    }
+    
+    .projects {
+        flex-wrap: wrap;
+    }
+
+    .yozuvi h4 {
+        font-size: 23px;
+        margin-left: -120px;
+    }
+
+    .projects img {
+        width: 210px;
+        border-radius: 20px;
+        box-shadow: 1px 1px 1px 1px;
+    }
+    .qobiljiga{
+        margin-left: -0px;
+        margin-top: 30px;
+    }
+    .avarasm {
+        width: 270px;
+        border-radius: 400px;
+        margin-left: -120px;
+    }
+    .podps{
+        width: 350px;
+        border-radius: 20px;
+        margin-left: -120px;
+        margin-top: -80px;
     }
 
     .qobilll {
-        margin-left: 130px;
+        font-size: 50px;
+        margin-left: -120px;
+    }
+
+    .al-aziz {
+        font-size: 30px;
+        margin-left: -120px;
+    }
+
+    .mubosherr {
+        font-size: 30px;
+        margin-left: -120px;
+    }
+
+    .abdraxmon {
+        font-size: 30px;
+        margin-left: -120px;
     }
 
     .otabekmemori {
-        margin-left: 90px;
-    }
-
-    .yozuvi {
-        text-align: center;
-    }
-
-    .yozuvi h4 {
-        font-size: 30px;
-        width: 400px;
-        margin-left: 60px;
-    }
-
-    .qorsidagi,
-    .qizilidagi {
         font-size: 40px;
-        margin-left: -90px;
-        width: 700px;
-    }
-
-    .qizilidagi {
-        margin-top: 10px
-    }
-
-    .avarasm {
-        width: 400px;
-        border-radius: 400px;
-    }
-
-    .podps {
-        width: 500px;
-        margin-left: -50px;
-        margin-top: -200px;
-    }
-
-    .projects {
-        flex-wrap: wrap;
-    }
-
-    .projects img {
-        width: 350px;
-        border-radius: 20px;
-        box-shadow: 1px 1px 1px 1px;
-        margin-left: 260px;
-    }
-
-    .hei {
-        height: 600px;
-    }
-
-    .hei3 {
-        height: 600px;
+        margin-left: -120px;
     }
 
     .vrapper {
         margin-left: 100px;
+    }
+
+    .swiper {
+        width: 550px;
+    }
+
+    .mySwiper {
+        margin-left: -1050px;
+    }
+
+    .mySwiper .hei2 {
+        width: 170px;
+    }
+
+    .mySwiper .hei3,
+    .mySwiper .hei4,
+    .mySwiper .hei {
+        width: 170px;
+        height: 300px;
+    }
+}
+@media (max-width: 400px) {
+    .yozuvi p {
+        margin-left: -60px;
+        width: 300px;
+        font-size: 18px;
+    }
+
+    .qorsidagi,
+    .qizilidagi {
+        font-size: 20px;
+        margin-left: -260px;
+        width: 700px;
+    }
+
+    .qizilidagi {
+        margin-top: 10px;
+    }
+    
+    .projects {
+        flex-wrap: wrap;
+    }
+
+    .yozuvi h4 {
+        font-size: 23px;
+        margin-left: -120px;
+    }
+
+    .projects img {
+        width: 210px;
+        border-radius: 20px;
+        box-shadow: 1px 1px 1px 1px;
+    }
+    .qobiljiga{
+        margin-left: -0px;
+        margin-top: 30px;
+    }
+    .avarasm {
+        width: 270px;
+        border-radius: 400px;
+        margin-left: -120px;
+    }
+    .podps{
+        width: 350px;
+        border-radius: 20px;
+        margin-left: -120px;
+        margin-top: -80px;
+    }
+
+    .qobilll {
+        font-size: 40px;
+        margin-left: -120px;
+    }
+
+    .al-aziz {
+        font-size: 30px;
+        margin-left: -120px;
+    }
+
+    .mubosherr {
+        font-size: 30px;
+        margin-left: -110px;
+    }
+
+    .abdraxmon {
+        font-size: 30px;
+        margin-left: -120px;
+    }
+
+    .otabekmemori {
+        font-size: 30px;
+        margin-left: -120px;
+    }
+
+    .vrapper {
+        margin-left: 100px;
+    }
+
+    .swiper {
+        width: 550px;
+    }
+
+    .mySwiper {
+        margin-left: -1050px;
+    }
+
+    .mySwiper .hei2 {
+        width: 170px;
+    }
+
+    .mySwiper .hei3,
+    .mySwiper .hei4,
+    .mySwiper .hei {
+        width: 170px;
+        height: 300px;
     }
 }
