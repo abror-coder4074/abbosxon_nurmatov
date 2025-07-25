@@ -261,90 +261,91 @@
 }
 @media (max-width:600px) {
     .shakll img{
-        margin-left: 520px;
+        margin-left: 370px;
     }
     .inpbtn{
-        margin-left: 170px;
+        margin-left: 100px;
     }
-    .shakl{
-        font-size: 60px;
-    }
-    .chziq{
-        width: 580px;
-    }
-    .iisd{
-        margin-left: 40px;
-    }
-}
-@media (max-width:560px) {
-    .shakll img{
-        margin-left: 470px;
-    }
-    .inpbtn{
-        margin-left: 170px;
-    }
-    .shakl{
-        font-size: 50px;
-    }
-    .chziq{
-        width: 580px;
-    }
-    .iisd{
-        margin-left: 40px;
-    }
-}
-@media (max-width:470px) {
-    .shakll img{
-        margin-left: 400px;
-    }
-    .inpbtn{
-        margin-left: 170px;
+    .inputlaa{
+        margin-left: -30px;
     }
     .shakl{
         font-size: 40px;
-        width: 700px;
-        margin-left: 20px;
+        margin-left: -170px;
     }
     .chziq{
-        width: 580px;
-    }
-    .iisd{
-        margin-left: 40px;
-    }
-}
-@media (max-width:410px) {
-    .shakll img{
-        margin-left: 400px;
-    }
-    .inpbtn{
-        margin-left: 170px;
-    }
-    .shakl{
-        font-size: 40px;
-        width: 700px;
-    }
-    .chziq{
-        width: 580px;
-    }
-    .iisd{
-        margin-left: 40px;
-    }
-}
-@media (max-width:395px) {
-    .shakll img{
-        margin-left: 450px;
-    }
-    .inpbtn{
-        margin-left: 170px;
-    }
-    .shakl{
-        font-size: 40px;
         width: 500px;
     }
-    .chziq{
-        width: 580px;
+}
+@media (max-width:540px) {
+    .shakll img{
+        margin-left: 370px;
     }
-    .iisd{
-        margin-left: 40px;
+    .inpbtn{
+        margin-left: 100px;
+    }
+    .inputlaa{
+        margin-left: -30px;
+    }
+    .shakl{
+        font-size: 40px;
+        margin-left: -110px;
+    }
+    .chziq{
+        width: 500px;
+    }
+}
+@media (max-width:500px) {
+    .shakll img{
+        margin-left: 370px;
+    }
+    .inpbtn{
+        margin-left: 100px;
+    }
+    .inputlaa{
+        margin-left: -30px;
+    }
+    .shakl{
+        font-size: 40px;
+        margin-left: -110px;
+    }
+    .chziq{
+        width: 450px;
+    }
+}
+@media (max-width: 450px) {
+    .shakll img{
+        margin-left: 330px;
+    }
+    .inpbtn{
+        margin-left: 170px;
+    }
+    .inputlaa{
+        margin-left: -30px;
+    }
+    .shakl{
+        font-size: 40px;
+        margin-left: -100px;
+    }
+    .chziq{
+        width: 400px;
+    }
+}
+@media (max-width: 450px) {
+    .shakll img{
+        margin-left: 330px;
+    }
+    .inpbtn{
+        margin-left: 100px;
+    }
+    .inputlaa{
+        margin-left: -30px;
+    }
+    .shakl{
+        font-size: 35px;
+        margin-left: -30px;
+    }
+    .chziq{
+        width: 400px;
     }
 }
