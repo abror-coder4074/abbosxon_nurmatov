@@ -349,20 +349,98 @@ video {
     }
 }
 
+@media (max-width: 550px) {
+    video {
+        width: 450px;
+        margin-left: 25px;
+    }
+
+    .rassm {
+        margin-left: 50px;
+    }
+
+    .qoraa,
+    .qizill {
+        font-size: 30px;
+        width: 700px;
+        margin-left: -100px;
+    }
+
+    .qizill {
+        margin-top: 10px;
+    }
+
+    .qqqq {
+        margin-left: 20px;
+    }
+}
+@media (max-width: 500px) {
+    video {
+        width: 400px;
+        height: 450px;
+        margin-left: 15px;
+    }
+
+    .rassm {
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+
+    .rassm h3 {
+        font-size: 15px;
+        margin-left: -20px;
+    }
+
+    .rassm img {
+        width: 40px;
+        margin-left: 100px;
+        margin-top: -20px;
+    }
+
+    .qoraa,
+    .qizill {
+        font-size: 25px;
+        width: 700px;
+        margin-left: -140px;
+    }
+
+    .qizill {
+        margin-top: 10px;
+    }
+
+    .qqqq {
+        margin-left: 20px;
+    }
+}
+
 @media (max-width: 450px) {
     video {
-        width: 450px;
-        margin-left: 50px;
+        width: 350px;
+        height: 400px;
+        margin-left: 25px;
     }
 
     .rassm {
-        margin-left: 80px;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+
+    .rassm h3 {
+        font-size: 15px;
+        margin-left: -20px;
+    }
+
+    .rassm img {
+        width: 40px;
+        margin-left: 100px;
+        margin-top: -20px;
     }
 
     .qoraa,
     .qizill {
-        font-size: 30px;
-        margin-left: -80px;
+        font-size: 25px;
+        width: 700px;
+        margin-left: -150px;
     }
 
     .qizill {
@@ -373,22 +451,35 @@ video {
         margin-left: 20px;
     }
 }
-
 @media (max-width: 400px) {
     video {
-        width: 450px;
-        height: 600px;
-        margin-left: 50px;
+        width: 350px;
+        height: 400px;
+        margin-left: 0px;
     }
 
     .rassm {
-        margin-left: 70px;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+
+    .rassm h3 {
+        font-size: 12px;
+        margin-left: -20px;
+    }
+
+    .rassm img {
+        width: 40px;
+        margin-left: 80px;
+        margin-top: -20px;
     }
 
     .qoraa,
     .qizill {
-        font-size: 30px;
-        margin-left: -70px;
+        font-size: 20px;
+        width: 700px;
+        margin-left: -180px;
+        margin-top: -50px;
     }
 
     .qizill {
@@ -399,21 +490,35 @@ video {
         margin-left: 20px;
     }
 }
-
-@media (max-width: 350px) {
+@media (max-width: 380px) {
     video {
-        width: 450px;
-        margin-left: 45px;
+        width: 330px;
+        height: 400px;
+        margin-left: 0px;
     }
 
     .rassm {
-        margin-left: 60px;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+
+    .rassm h3 {
+        font-size: 12px;
+        margin-left: -20px;
+    }
+
+    .rassm img {
+        width: 40px;
+        margin-left: 80px;
+        margin-top: -20px;
     }
 
     .qoraa,
     .qizill {
-        font-size: 30px;
-        margin-left: -70px;
+        font-size: 20px;
+        width: 700px;
+        margin-left: -180px;
+        margin-top: -50px;
     }
 
     .qizill {

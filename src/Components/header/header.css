@@ -1100,6 +1100,153 @@ a:hover {
         height: 700px;
     }
 }
+@media (max-width:550px) {
+    .wrapper {
+        display: block
+    }
+
+    header {
+        width: 500px;
+        height: 1130px;
+        margin-left: 10px;
+        
+    }
+
+    nav {
+        padding: 20px 40px;
+        gap: 5px
+    }
+    ul{
+        margin-left: 0;
+        justify-content: center;
+    }
+    .titletaraf {
+        text-align: center;
+        margin-left: -20px
+    }
+
+    .Fio,
+    .fip {
+        font-size: 70px;
+        text-align: center;
+        margin-left: 80px
+    }
+    .fip{
+        margin-top: -20px;
+    }
+
+    .parag {
+        margin-left: 65px;
+        font-size: 20px;
+        width: 400px;
+    }
+    .imgaf img {
+        margin-left: 160px;
+        margin-top: -150px;
+        width: 500px;
+        height: 700px;
+    }
+}
+@media (max-width:500px) {
+    .wrapper {
+        display: block
+    }
+
+    header {
+        width: 470px;
+        height: 1130px;
+        margin-left: 15px;
+        
+    }
+    .qobiljiga{
+        display: none;
+    }
+
+    nav {
+        padding: 20px 40px;
+        gap: 35px
+    }
+    ul{
+        margin-left: 0;
+        justify-content: center;
+    }
+    .titletaraf {
+        text-align: center;
+        margin-left: -20px
+    }
+
+    .Fio,
+    .fip {
+        font-size: 70px;
+        text-align: center;
+        margin-left: 60px
+    }
+    .fip{
+        margin-top: -20px;
+    }
+
+    .parag {
+        margin-left: 45px;
+        font-size: 20px;
+        width: 400px;
+    }
+    .imgaf img {
+        margin-left: 130px;
+        margin-top: -150px;
+        width: 500px;
+        height: 700px;
+    }
+}
+@media (max-width:480px) {
+    .wrapper {
+        display: block
+    }
+
+    header {
+        width: 450px;
+        height: 1130px;
+        margin-left: 10px;
+        
+    }
+    .qobiljiga{
+        display: none;
+    }
+
+    nav {
+        padding: 20px 40px;
+        gap: 35px
+    }
+    ul{
+        margin-left: 0;
+        justify-content: center;
+    }
+    .titletaraf {
+        text-align: center;
+        margin-left: -20px
+    }
+
+    .Fio,
+    .fip {
+        font-size: 70px;
+        text-align: center;
+        margin-left: 60px
+    }
+    .fip{
+        margin-top: -20px;
+    }
+
+    .parag {
+        margin-left: 45px;
+        font-size: 20px;
+        width: 400px;
+    }
+    .imgaf img {
+        margin-left: 130px;
+        margin-top: -150px;
+        width: 500px;
+        height: 700px;
+    }
+}
 @media (max-width:450px) {
     .wrapper {
         display: block
@@ -1109,8 +1256,6 @@ a:hover {
         width: 420px;
         height: 1080px;
         margin-left: 10px;
-    }
-    .logo{
     }
     nav {
         padding: 20px 40px;
@@ -1159,8 +1304,6 @@ a:hover {
         height: 1080px;
         margin-left: 5px;
     }
-    .logo{
-    }
     nav {
         padding: 20px 40px;
         gap: 20px;
@@ -1206,7 +1349,7 @@ a:hover {
     header {
         width: 380px;
         height: 1065px;
-        margin-left: 3px;
+        margin-left: 5px;
     }
     .logo{
         margin-left: -20px;
@@ -1256,7 +1399,7 @@ a:hover {
     header {
         width: 360px;
         height: 1074px;
-        margin-left: 1px;
+        margin-left: 7px;
     }
     .logo{
         margin-left: -20px;

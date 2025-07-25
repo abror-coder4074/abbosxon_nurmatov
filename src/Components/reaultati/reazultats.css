@@ -578,7 +578,7 @@ body {
     }
 }
 
-@media (max-width:646px) {
+@media (max-width:650px) {
     .yozuvi p {
         margin-left: 100px;
         width: 400px;
@@ -869,7 +869,7 @@ body {
     }
 }
 
-/* @media (max-width:530px) {
+@media (max-width:550px) {
     .yozuvi p {
         margin-left: 5px;
         width: 500px;
@@ -900,8 +900,8 @@ body {
 
     .qorsidagi,
     .qizilidagi {
-        font-size: 40px;
-        margin-left: -90px;
+        font-size: 30px;
+        margin-left: 10px;
         width: 700px;
     }
 
@@ -1161,4 +1161,4 @@ body {
     .vrapper {
         margin-left: 100px;
     }
-} */
+}
